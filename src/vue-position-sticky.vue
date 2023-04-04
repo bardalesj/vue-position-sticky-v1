@@ -29,6 +29,11 @@ export default {
             type: String
         }
     },
+    watch: {
+        offsetTop() {
+            this.handleResize()
+        }
+    },
     data() {
         return {
             sticky: false,
