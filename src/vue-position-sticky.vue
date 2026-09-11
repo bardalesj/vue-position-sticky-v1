@@ -91,6 +91,8 @@ export default {
                     'min-height': `${elOffset.height}px`
                 }
                 this.stickyStyles = {
+                    'position': 'fixed',
+                    'z-index': 999,
                     'top': `${this.offsetTop}px`,
                     'left': `${elOffset.left}px`,
                     'width': `${this.$el.offsetWidth}px`
@@ -113,6 +115,8 @@ export default {
                     'min-height': `${elOffset.height}px`
                 }
                 this.stickyStyles = {
+                    'position': 'fixed',
+                    'z-index': 999,
                     'bottom': `${this.offsetBottom}px`,
                     'left': `${elOffset.left}px`,
                     'width': `${this.$el.offsetWidth}px`
@@ -144,9 +148,3 @@ export default {
     }
 }
 </script>
-<style lang='stylus'>
-.vue-position-sticky {
-    position: fixed;
-    z-index: 999;
-}
-</style>

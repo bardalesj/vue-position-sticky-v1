@@ -1,17 +1,18 @@
 {
-    "name": "vue-position-sticky",
+    "name": "vue-position-sticky-b",
     "description": "A Vue.js components to sticky to the page",
-    "version": "0.2.1",
-    "author": "uncleLian <771674109@qq.com>",
+    "version": "0.2.3",
+    "author": "bardalesj",
     "private": false,
     "main": "dist/vue-position-sticky.umd.min.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/uncleLian/vue-position-sticky.git"
+        "url": "https://github.com/bardalesj/vue-position-sticky-v1.git"
     },
     "bugs": {
-        "url": "https://github.com/uncleLian/vue-position-sticky/issues"
+        "url": "https://github.com/bardalesj/vue-position-sticky-v1/issues"
     },
+    "homepage": "https://github.com/bardalesj/vue-position-sticky-v1#readme",
     "keywords": [
         "vue",
         "sticky",
@@ -60,8 +61,7 @@
         }
     },
     "browserslist": [
-        "> 1%",
-        "last 2 versions",
-        "not ie <= 8"
+        "defaults",
+        "not IE 11"
     ]
 }
